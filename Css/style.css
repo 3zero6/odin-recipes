@@ -1,0 +1,43 @@
+*{
+    text-decoration: none;
+}
+body{
+    background-color: rgba(247, 220, 187, 0.61);
+}
+.dishName{
+    text-align: center;
+}
+.head{
+    text-align: center;
+}
+.dishImage{
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.mainDishImage{
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    display: inline-block;
+    display: block;
+    margin: 0 auto;
+}
+.ingredients{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.dishList{
+    width: 600px;
+    margin: 10px auto 0 auto;
+    border: 2px solid black;
+    background-color: rgba(231, 221, 221, 0.356), 0.432);
+    border-radius: 10px;    
+}
+.dishList a{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
