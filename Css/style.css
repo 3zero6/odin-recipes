@@ -20,24 +20,25 @@ body{
     width: 600px;
     height: 300px;
     border: 2px solid black;
-    display: inline-block;
     display: block;
     margin: 0 auto;
 }
-.ingredients{
-    display: inline-block;
-    margin-left: 40px;
-}
-
 .dishList{
     width: 600px;
     margin: 10px auto 0 auto;
     border: 2px solid black;
-    background-color: rgba(231, 221, 221, 0.356), 0.432);
     border-radius: 10px;    
+    background-color: rgba(233, 220, 220, 0.616);
+}
+.mainList{
+    padding: 40px;
+    width: 700px;
 }
 .dishList a{
     color: black;
     font-size: 20px;
     font-weight: 500;
+}
+.homePage a{
+    color: black;
 }
